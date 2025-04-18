@@ -6,7 +6,8 @@ Sparta 던전은 .NET 6.0 기반의 콘솔 텍스트 RPG입니다. 플레이어
 
 구현하면서 과정을 Notion에 기록하였습니다.
 개발 전 설계에 대한 생각의 흐름과 구현 중 발생한 문제를 위주로 작성하였습니다.
-[구현 과정 기록]([https://example.com](https://www.notion.so/TextRPG-_-SpartaDungeon-1d7dd79e4161809b9c0df64815fa2727?pvs=25))
+
+[구현 과정 기록](https://www.notion.so/TextRPG-_-SpartaDungeon-1d7dd79e4161809b9c0df64815fa2727?pvs=25)
 ## 주요 기능
 
 - **캐릭터 생성**: 이름과 직업(전사/도적) 선택
