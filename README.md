@@ -1,20 +1,30 @@
-# Sparta 던전 (Text RPG)
-Unity bootcamp에서 진행한 개인 프로젝트
+# Sparta Dungeon — Text RPG
 
-**설명**  
-Sparta 던전은 .NET 6.0 기반의 콘솔 텍스트 RPG입니다. 플레이어는 캐릭터를 생성하고, 마을에서 상태 확인, 인벤토리 관리, 상점 거래, 휴식을 하며  
-던전에 입장해 전투를 진행합니다. 게임 상태는 JSON 파일에 자동 저장 및 로드되어 앱을 껐다 켜도 이어서 플레이할 수 있습니다.
+A console-based text RPG built with **.NET 6.0** during the Unity bootcamp at Sparta Coding Club.
 
-구현하면서 과정을 Notion에 기록하였습니다.
-개발 전 설계에 대한 생각의 흐름과 구현 중 발생한 문제를 위주로 작성하였습니다.
+## About
 
-[구현 과정 기록](https://www.notion.so/TextRPG-_-SpartaDungeon-1d7dd79e4161809b9c0df64815fa2727?pvs=25)
-## 주요 기능
+Sparta Dungeon is a turn-based RPG where players create a character, manage equipment, trade at shops, and explore dungeons. Game state is automatically saved/loaded via JSON, so progress persists across sessions.
 
-- **캐릭터 생성**: 이름과 직업(전사/도적) 선택
-- **상태 보기**: 레벨, 체력, 골드, 장착 보너스 확인
-- **인벤토리 관리**: 장비 착용/해제
-- **상점**: 아이템 구매/판매
-- **휴식**: 골드로 체력 회복
-- **던전 입장**: 난이도별 피해 및 보상 계산
-- **자동 저장/로드**: `TextRPG_Sparta.json`에 매 턴 및 종료 시 자동 저장, 시작 시 로드
+## Features
+
+- **Character creation** — Choose name and class (Warrior / Rogue)
+- **Status view** — Check level, HP, gold, and equipment bonuses
+- **Inventory management** — Equip and unequip gear
+- **Shop** — Buy and sell items
+- **Rest** — Spend gold to recover HP
+- **Dungeon exploration** — Difficulty-based damage and reward calculation
+- **Auto save/load** — Game state saved to `TextRPG_Sparta.json` every turn
+
+## Dev Log
+
+Documented the design process and implementation challenges on Notion:
+- [Development Log (Notion)](https://www.notion.so/TextRPG-_-SpartaDungeon-1d7dd79e4161809b9c0df64815fa2727?pvs=25)
+
+## Tech Stack
+
+| | |
+|---|---|
+| Framework | .NET 6.0 |
+| Language | C# |
+| Data | JSON (auto save/load) |
